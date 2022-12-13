@@ -1,5 +1,3 @@
-# praktikum8
-```sh
 import os
 
 class data_mhsw:
@@ -94,34 +92,3 @@ while Loop:
     elif tanya=="k" or tanya=="K":
         print("Program Selesai")
         Loop = False
-```
-
-## **FLOWCHART**
-
-![img](gambar/Flowchart.jpeg)
-### Penjelasan
-1. Untuk memanggil fungsi dengan nama "os".
-2. Membuat class data_mhsw dengan atributnya, yaitu nama, nim, tugas, uts dan uas.
-3. Membuat variable data = [] untuk menampung list dari data_mhsw.
-4. Menambah data ( tambah() )
-
-Menginput nim, nama, nilai tugas, nilai uts dan nilai uas.
-
-Data yang telah diinput akan ditambahkan ke dalam variable data.
-
-5. Menampilkan data ( lihat() )
-
-Jika belum menginput data, maka akan memanggil fungsi no_data().
-
-Jika sebelumnya sudah menginput data, maka data yang sudah diinput akan ditampilkan oleh program.
-
-6. Mengubah data ( ubah() )
-
-Menginput nama, kemudian input data yang ingin diubah.
-
-
-7. Menghapus data ( hapus() )
-
-Menginput nama, setelah nama diinput maka data yang lainnya akan ikut terhapus sesuai dengan nama yang diinputkan.
-
-8. Menggunakan perulangan uncountable, yang artinya selama statement bernilai "True" maka program akan terus berjalan. Jika statementnya "False" maka program terhenti.
